@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import { ServiceLayout } from '@/components/service-layout'
 
 export default function Home() {
   return (
     <>
-      <h1>next.js</h1>
+      <ServiceLayout />
     </>
   )
 }
